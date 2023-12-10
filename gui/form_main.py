@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file './gui/gui.ui'
+# Form implementation generated from reading ui file './gui/form_main.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.1
 #
@@ -80,15 +80,6 @@ class Ui_MainWindow(object):
         self.tableWidgetAP.setHorizontalHeaderItem(5, item)
         self.horizontalLayout_2.addWidget(self.tableWidgetAP)
         self.settingsLayout.addLayout(self.horizontalLayout_2)
-        self.tableWidget = QtWidgets.QTableWidget(self.centralwidget)
-        self.tableWidget.setObjectName("tableWidget")
-        self.tableWidget.setColumnCount(2)
-        self.tableWidget.setRowCount(0)
-        item = QtWidgets.QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(0, item)
-        item = QtWidgets.QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(1, item)
-        self.settingsLayout.addWidget(self.tableWidget, 0, QtCore.Qt.AlignBottom)
         self.verticalLayout_2.addLayout(self.settingsLayout)
         MainWindow.setCentralWidget(self.centralwidget)
 
@@ -114,10 +105,6 @@ class Ui_MainWindow(object):
         item.setText(_translate("MainWindow", "encryption"))
         item = self.tableWidgetAP.horizontalHeaderItem(5)
         item.setText(_translate("MainWindow", "clients"))
-        item = self.tableWidget.horizontalHeaderItem(0)
-        item.setText(_translate("MainWindow", "mac"))
-        item = self.tableWidget.horizontalHeaderItem(1)
-        item.setText(_translate("MainWindow", "dbm"))
 
 
 if __name__ == "__main__":

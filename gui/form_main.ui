@@ -141,20 +141,6 @@
         </item>
        </layout>
       </item>
-      <item alignment="Qt::AlignBottom">
-       <widget class="QTableWidget" name="tableWidget">
-        <column>
-         <property name="text">
-          <string>mac</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>dbm</string>
-         </property>
-        </column>
-       </widget>
-      </item>
      </layout>
     </item>
    </layout>
